@@ -1,4 +1,11 @@
 # Minikube
+```
+# Set default driver
+minikube config set driver virtualbox
+```
+```
+minikube start --driver=virtualbox --alsologtostderr
+```
 
 ```
 minikube start --alsologtosdtderr
